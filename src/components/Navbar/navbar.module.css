@@ -1,0 +1,33 @@
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px auto;
+}
+.navLogo {
+  margin-left: 5rem;
+}
+
+.navLinks {
+  display: inline-block;
+  text-align: right;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  align-content: center;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: x-large;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+  color: #00ffff;
+}
+
+.closeSymbol {
+  color: #00ffff;
+}
